@@ -26,7 +26,7 @@ The goal of this umbrella project is to provide a taxonomy and replication of ex
 
 ### Development of a Spatially Referenced Network of Event Locations 
 **Main Idea**: Teams record the locations of "Events" (passes, shots, penalties, etc.) during a game, and advanced statistical models try to characterize the spatial aspects of sports. A grid of $(x,y)$ locations results in many, many locations in which very little happens, and a small number of locations where lots of things happen. Instead of the exact locations, we could transform the playing area to a "web" or "mesh" of locations. This will reduce the number of locations required for spatial modelling without compromising the results. 
-![232](Figs/SpatialNetwork%201.jpeg)
+![](SpatialNetwork 1.jpeg)
 - Deliverable: An R or python package that converts coordinates to nodes in a mesh network. From there, models can simply use the nodes as a simplified set of coordinates. A technical report showing that models perform similarly on the simpler coordinates would be nice too.
 - Future work: develop versions of spatial models that over a network, rather than a grid.
 **Required Knowledge**: Good R or python programming, some data science or statistics.
